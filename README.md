@@ -1,10 +1,10 @@
 #Framingham Heart Disease Risk Prediction:
-This repository contains a machine learning project that uses the **Framingham Heart Study dataset** to predict whether an individual will develop **coronary heart disease (CHD)** within the next 10 years. The prediction is made using a **logistic regression** model based on key health metrics.
+This repository contains a machine learning project that uses the "Framingham Heart Study dataset" to predict whether an individual will develop "coronary heart disease (CHD)" within the next 10 years. The prediction is made using a "logistic regression" model based on key health metrics.
 
 File Structure:
-├── framingham.csv    # Dataset file
-├── main.py           # Main script for model and visualization
-├── README.md         # Project documentation
+├── framingham.csv    (Dataset file)
+├── main.py           (Main script for model and visualization)
+├── README.md         (Project documentation)
 
 #Project Objectives:
 - Clean and preprocess the dataset (handle missing values, normalize features).
@@ -15,10 +15,10 @@ File Structure:
 #Dataset Overview:
 The dataset comes from the [Framingham Heart Study](https://www.framinghamheartstudy.org/) and contains anonymized health data.
 
-**Target variable:**
+Target variable:
 - `TenYearCHD`: 1 if the patient is likely to develop CHD in 10 years, otherwise 0.
 
-**Selected Features used for training:**
+Selected Features used for training:
 - `age`: Age of the patient
 - `Sex_male`: Gender (1 for male, 0 for female)
 - `cigsPerDay`: Number of cigarettes smoked per day
